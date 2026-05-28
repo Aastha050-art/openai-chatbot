@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-DPT</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-neutral-900 text-white overflow-x-hidden " >
+
+    <div class=" container mx-auto max-w-3xl pb-36 px-2" id="chatcontainer">
+
+             <!--messages-->
+
+
+
+
+             <!--user messages-->
+
+             
+              
+              
+              <!--Assistant message-
+              <div class="max-w-fit">
+                Hello, Aastha I am fine.
+              </div>
+            -->
+
+             <!--bottom textarea-->
+
+             <div class="inset-x-0   bottom-0  fixed flex justify-center bg-neutral-900  items-center">
+                <div class="bg-neutral-800 p-2 rounded-3xl w-full mb-3  max-w-3xl " id="question">
+                <textarea  class="w-full resize-none outline-0 p-3" id="input" rows="2"></textarea>
+
+                <div class="flex justify-end items-center">
+                    <button class="bg-white text-black px-6 
+                    py-1 rounded-full hover:bg-gray-300 cursor-pointer " id="askbtn">Ask</button>
+                </div>
+
+             </div>
+
+             </div>
+             
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
