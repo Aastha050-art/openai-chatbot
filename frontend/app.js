@@ -42,7 +42,7 @@ chatContatainer.appendChild(assistantMsgEle)
 }
 
 async function callServer(inputText){
-  const response= await fetch("http://localhost:3001/chat",{
+  const response= await fetch("https://openai-chatbot-g0gw.onrender.com/chat",{
       method:"POST",
       headers:{
         'content-type':'application/json'
